@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 // Toast.makeText(LoginActivity.this, "Id : " + profile.getId() + " Token :" + token.getIdToken(), Toast.LENGTH_LONG).show();
                 startActivity(new Intent(LoginActivity.this, MainActivity.class));
                 finish();
-
+        //test
             }
         }, new IntentFilter(Lock.AUTHENTICATION_ACTION));
     }
